@@ -1,0 +1,45 @@
+:root {
+  --primary: #E44F2A;
+  --secondary: #F7A212;
+  --tertiary: #B2471C;
+  --bg: #F5F5F5;
+  --text: #101010;
+  --text-secondary: #A7A7A7;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+button.primary {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: .75rem 1.25rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button.secondary {
+  background: var(--secondary);
+  color: #fff;
+  border: none;
+  padding: .75rem 1.25rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  background: var(--tertiary);
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
